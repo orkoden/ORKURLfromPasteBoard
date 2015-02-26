@@ -1,0 +1,10 @@
+PODS:
+  - Punycode-Cocoa (1.0)
+
+DEPENDENCIES:
+  - Punycode-Cocoa (~> 1.0)
+
+SPEC CHECKSUMS:
+  Punycode-Cocoa: 8ea125843fcd7bf9db9a035fc4025d0f26daa664
+
+COCOAPODS: 0.35.0

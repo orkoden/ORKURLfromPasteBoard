@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32D1FF71A9B97830019B3F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B32D1FF61A9B97830019B3F2 /* main.m */; };
+		B32D1FFA1A9B97830019B3F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B32D1FF91A9B97830019B3F2 /* AppDelegate.m */; };
+		B32D1FFD1A9B97830019B3F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32D1FFC1A9B97830019B3F2 /* ViewController.m */; };
+		B32D20001A9B97830019B3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32D1FFE1A9B97830019B3F2 /* Main.storyboard */; };
+		B32D20021A9B97830019B3F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32D20011A9B97830019B3F2 /* Images.xcassets */; };
+		B32D20051A9B97830019B3F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B32D20031A9B97830019B3F2 /* LaunchScreen.xib */; };
+		B32D20111A9B97830019B3F2 /* ORKPasteBoardCheckerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B32D20101A9B97830019B3F2 /* ORKPasteBoardCheckerTest.m */; };
+		B37434551A9F8B86004F213A /* NSString+ORKurlsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B37434541A9F8B86004F213A /* NSString+ORKurlsTest.m */; };
+		B37434571A9F9094004F213A /* ORKLinkDataDetectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B37434561A9F9094004F213A /* ORKLinkDataDetectorTest.m */; };
+		B37434591A9F98B7004F213A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37434581A9F98B7004F213A /* MobileCoreServices.framework */; };
+		B37434601A9FA2F0004F213A /* NSString+ORKurls.m in Sources */ = {isa = PBXBuildFile; fileRef = B374345B1A9FA2F0004F213A /* NSString+ORKurls.m */; };
+		B37434611A9FA2F0004F213A /* ORKLinkDataDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = B374345D1A9FA2F0004F213A /* ORKLinkDataDetector.m */; };
+		B37434621A9FA2F0004F213A /* ORKPasteboardURLChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B374345F1A9FA2F0004F213A /* ORKPasteboardURLChecker.m */; };
+		B37434651A9FA34D004F213A /* NSCharacterSet+ORKurls.m in Sources */ = {isa = PBXBuildFile; fileRef = B37434641A9FA34D004F213A /* NSCharacterSet+ORKurls.m */; };
+		C42B2EA66B3048B573D0CDDF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B660528CF1DF0BB4212BA4A9 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B32D200B1A9B97830019B3F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32D1FE91A9B97830019B3F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32D1FF01A9B97830019B3F2;
+			remoteInfo = ORKURLfromPasteBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC639F00309D8CC16D21C7A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		44748854D213DD55C555D721 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B32D1FF11A9B97830019B3F2 /* ORKURLfromPasteBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORKURLfromPasteBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32D1FF51A9B97830019B3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32D1FF61A9B97830019B3F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B32D1FF81A9B97830019B3F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B32D1FF91A9B97830019B3F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B32D1FFB1A9B97830019B3F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B32D1FFC1A9B97830019B3F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B32D1FFF1A9B97830019B3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B32D20011A9B97830019B3F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B32D20041A9B97830019B3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B32D200A1A9B97830019B3F2 /* ORKURLfromPasteBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORKURLfromPasteBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32D200F1A9B97830019B3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32D20101A9B97830019B3F2 /* ORKPasteBoardCheckerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORKPasteBoardCheckerTest.m; sourceTree = "<group>"; };
+		B37434541A9F8B86004F213A /* NSString+ORKurlsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ORKurlsTest.m"; sourceTree = "<group>"; };
+		B37434561A9F9094004F213A /* ORKLinkDataDetectorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKLinkDataDetectorTest.m; sourceTree = "<group>"; };
+		B37434581A9F98B7004F213A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B374345A1A9FA2F0004F213A /* NSString+ORKurls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ORKurls.h"; path = "../../Pod/Classes/NSString+ORKurls.h"; sourceTree = "<group>"; };
+		B374345B1A9FA2F0004F213A /* NSString+ORKurls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ORKurls.m"; path = "../../Pod/Classes/NSString+ORKurls.m"; sourceTree = "<group>"; };
+		B374345C1A9FA2F0004F213A /* ORKLinkDataDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKLinkDataDetector.h; path = ../../Pod/Classes/ORKLinkDataDetector.h; sourceTree = "<group>"; };
+		B374345D1A9FA2F0004F213A /* ORKLinkDataDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKLinkDataDetector.m; path = ../../Pod/Classes/ORKLinkDataDetector.m; sourceTree = "<group>"; };
+		B374345E1A9FA2F0004F213A /* ORKPasteboardURLChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKPasteboardURLChecker.h; path = ../../Pod/Classes/ORKPasteboardURLChecker.h; sourceTree = "<group>"; };
+		B374345F1A9FA2F0004F213A /* ORKPasteboardURLChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKPasteboardURLChecker.m; path = ../../Pod/Classes/ORKPasteboardURLChecker.m; sourceTree = "<group>"; };
+		B37434631A9FA34D004F213A /* NSCharacterSet+ORKurls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+ORKurls.h"; path = "../../Pod/Classes/NSCharacterSet+ORKurls.h"; sourceTree = "<group>"; };
+		B37434641A9FA34D004F213A /* NSCharacterSet+ORKurls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSCharacterSet+ORKurls.m"; path = "../../Pod/Classes/NSCharacterSet+ORKurls.m"; sourceTree = "<group>"; };
+		B660528CF1DF0BB4212BA4A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32D1FEE1A9B97830019B3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42B2EA66B3048B573D0CDDF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32D20071A9B97830019B3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37434591A9F98B7004F213A /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC44202B616AD167B39A97B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CC639F00309D8CC16D21C7A /* Pods.debug.xcconfig */,
+				44748854D213DD55C555D721 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1E64D416027EE73C788D8DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B37434581A9F98B7004F213A /* MobileCoreServices.framework */,
+				B660528CF1DF0BB4212BA4A9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B32D1FE81A9B97830019B3F2 = {
+			isa = PBXGroup;
+			children = (
+				B32D1FF31A9B97830019B3F2 /* ORKURLfromPasteBoard */,
+				B32D200D1A9B97830019B3F2 /* ORKURLfromPasteBoardTests */,
+				B32D1FF21A9B97830019B3F2 /* Products */,
+				2AC44202B616AD167B39A97B /* Pods */,
+				A1E64D416027EE73C788D8DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B32D1FF21A9B97830019B3F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32D1FF11A9B97830019B3F2 /* ORKURLfromPasteBoard.app */,
+				B32D200A1A9B97830019B3F2 /* ORKURLfromPasteBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32D1FF31A9B97830019B3F2 /* ORKURLfromPasteBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B32D20261A9BB9680019B3F2 /* URLDetection */,
+				B32D1FF81A9B97830019B3F2 /* AppDelegate.h */,
+				B32D1FF91A9B97830019B3F2 /* AppDelegate.m */,
+				B32D1FFB1A9B97830019B3F2 /* ViewController.h */,
+				B32D1FFC1A9B97830019B3F2 /* ViewController.m */,
+				B32D1FFE1A9B97830019B3F2 /* Main.storyboard */,
+				B32D20011A9B97830019B3F2 /* Images.xcassets */,
+				B32D20031A9B97830019B3F2 /* LaunchScreen.xib */,
+				B32D1FF41A9B97830019B3F2 /* Supporting Files */,
+			);
+			path = ORKURLfromPasteBoard;
+			sourceTree = "<group>";
+		};
+		B32D1FF41A9B97830019B3F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32D1FF51A9B97830019B3F2 /* Info.plist */,
+				B32D1FF61A9B97830019B3F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B32D200D1A9B97830019B3F2 /* ORKURLfromPasteBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B32D20101A9B97830019B3F2 /* ORKPasteBoardCheckerTest.m */,
+				B32D200E1A9B97830019B3F2 /* Supporting Files */,
+				B37434541A9F8B86004F213A /* NSString+ORKurlsTest.m */,
+				B37434561A9F9094004F213A /* ORKLinkDataDetectorTest.m */,
+			);
+			path = ORKURLfromPasteBoardTests;
+			sourceTree = "<group>";
+		};
+		B32D200E1A9B97830019B3F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32D200F1A9B97830019B3F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B32D20261A9BB9680019B3F2 /* URLDetection */ = {
+			isa = PBXGroup;
+			children = (
+				B37434631A9FA34D004F213A /* NSCharacterSet+ORKurls.h */,
+				B37434641A9FA34D004F213A /* NSCharacterSet+ORKurls.m */,
+				B374345A1A9FA2F0004F213A /* NSString+ORKurls.h */,
+				B374345B1A9FA2F0004F213A /* NSString+ORKurls.m */,
+				B374345C1A9FA2F0004F213A /* ORKLinkDataDetector.h */,
+				B374345D1A9FA2F0004F213A /* ORKLinkDataDetector.m */,
+				B374345E1A9FA2F0004F213A /* ORKPasteboardURLChecker.h */,
+				B374345F1A9FA2F0004F213A /* ORKPasteboardURLChecker.m */,
+			);
+			name = URLDetection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32D1FF01A9B97830019B3F2 /* ORKURLfromPasteBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32D20141A9B97830019B3F2 /* Build configuration list for PBXNativeTarget "ORKURLfromPasteBoard" */;
+			buildPhases = (
+				E804CD5678E4E7A00EB8BE37 /* Check Pods Manifest.lock */,
+				B32D1FED1A9B97830019B3F2 /* Sources */,
+				B32D1FEE1A9B97830019B3F2 /* Frameworks */,
+				B32D1FEF1A9B97830019B3F2 /* Resources */,
+				2839320ACD1C027086AC7F86 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORKURLfromPasteBoard;
+			productName = ORKURLfromPasteBoard;
+			productReference = B32D1FF11A9B97830019B3F2 /* ORKURLfromPasteBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B32D20091A9B97830019B3F2 /* ORKURLfromPasteBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32D20171A9B97830019B3F2 /* Build configuration list for PBXNativeTarget "ORKURLfromPasteBoardTests" */;
+			buildPhases = (
+				B32D20061A9B97830019B3F2 /* Sources */,
+				B32D20071A9B97830019B3F2 /* Frameworks */,
+				B32D20081A9B97830019B3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32D200C1A9B97830019B3F2 /* PBXTargetDependency */,
+			);
+			name = ORKURLfromPasteBoardTests;
+			productName = ORKURLfromPasteBoardTests;
+			productReference = B32D200A1A9B97830019B3F2 /* ORKURLfromPasteBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32D1FE91A9B97830019B3F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = orkoden;
+				TargetAttributes = {
+					B32D1FF01A9B97830019B3F2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B32D20091A9B97830019B3F2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B32D1FF01A9B97830019B3F2;
+					};
+				};
+			};
+			buildConfigurationList = B32D1FEC1A9B97830019B3F2 /* Build configuration list for PBXProject "ORKURLfromPasteBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B32D1FE81A9B97830019B3F2;
+			productRefGroup = B32D1FF21A9B97830019B3F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32D1FF01A9B97830019B3F2 /* ORKURLfromPasteBoard */,
+				B32D20091A9B97830019B3F2 /* ORKURLfromPasteBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32D1FEF1A9B97830019B3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32D20001A9B97830019B3F2 /* Main.storyboard in Resources */,
+				B32D20051A9B97830019B3F2 /* LaunchScreen.xib in Resources */,
+				B32D20021A9B97830019B3F2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32D20081A9B97830019B3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2839320ACD1C027086AC7F86 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E804CD5678E4E7A00EB8BE37 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32D1FED1A9B97830019B3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32D1FFD1A9B97830019B3F2 /* ViewController.m in Sources */,
+				B37434621A9FA2F0004F213A /* ORKPasteboardURLChecker.m in Sources */,
+				B37434611A9FA2F0004F213A /* ORKLinkDataDetector.m in Sources */,
+				B32D1FFA1A9B97830019B3F2 /* AppDelegate.m in Sources */,
+				B37434601A9FA2F0004F213A /* NSString+ORKurls.m in Sources */,
+				B32D1FF71A9B97830019B3F2 /* main.m in Sources */,
+				B37434651A9FA34D004F213A /* NSCharacterSet+ORKurls.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32D20061A9B97830019B3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37434551A9F8B86004F213A /* NSString+ORKurlsTest.m in Sources */,
+				B37434571A9F9094004F213A /* ORKLinkDataDetectorTest.m in Sources */,
+				B32D20111A9B97830019B3F2 /* ORKPasteBoardCheckerTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32D200C1A9B97830019B3F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32D1FF01A9B97830019B3F2 /* ORKURLfromPasteBoard */;
+			targetProxy = B32D200B1A9B97830019B3F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B32D1FFE1A9B97830019B3F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32D1FFF1A9B97830019B3F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B32D20031A9B97830019B3F2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32D20041A9B97830019B3F2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B32D20121A9B97830019B3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B32D20131A9B97830019B3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B32D20151A9B97830019B3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC639F00309D8CC16D21C7A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ORKURLfromPasteBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B32D20161A9B97830019B3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44748854D213DD55C555D721 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ORKURLfromPasteBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B32D20181A9B97830019B3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ORKURLfromPasteBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORKURLfromPasteBoard.app/ORKURLfromPasteBoard";
+			};
+			name = Debug;
+		};
+		B32D20191A9B97830019B3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ORKURLfromPasteBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORKURLfromPasteBoard.app/ORKURLfromPasteBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32D1FEC1A9B97830019B3F2 /* Build configuration list for PBXProject "ORKURLfromPasteBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32D20121A9B97830019B3F2 /* Debug */,
+				B32D20131A9B97830019B3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32D20141A9B97830019B3F2 /* Build configuration list for PBXNativeTarget "ORKURLfromPasteBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32D20151A9B97830019B3F2 /* Debug */,
+				B32D20161A9B97830019B3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32D20171A9B97830019B3F2 /* Build configuration list for PBXNativeTarget "ORKURLfromPasteBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32D20181A9B97830019B3F2 /* Debug */,
+				B32D20191A9B97830019B3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B32D1FE91A9B97830019B3F2 /* Project object */;
+}
